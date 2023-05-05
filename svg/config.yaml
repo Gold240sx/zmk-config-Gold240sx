@@ -84,3 +84,12 @@ parse_config:
     TILDE2: '~'
     UNDER: _
     UNDERSCORE: _
+
+error building: Run west update
+  west update
+  shell: sh -e {0}
+  env:
+    extra_cmake_args: -DSHIELD="corne_nice_view_left nice_view_adapter nice_view"
+    artifact_name: corne_nice_view_left-nice_nano_v2-zmk
+    display_name: corne_nice_view_left - nice_nano_v2
+    zephyr_version: 3.2.0
