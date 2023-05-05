@@ -7,5 +7,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: corne_nice_view
+      path: shields/corne_nice_view
   self:
     path: config

@@ -1,0 +1,3 @@
+#include "splitkb_aurora_corne_left/shield.dtsi"
+#include "nice_view_adapter/shield.dtsi"
+#include "nice_view/shield.dtsi"
