@@ -2,12 +2,16 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: nice_view
+      url-base: https://github.com/nice_view
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: corne_nice_view
+      remote: nice_view
+      revision: main
       path: shields/corne_nice_view
   self:
     path: config
