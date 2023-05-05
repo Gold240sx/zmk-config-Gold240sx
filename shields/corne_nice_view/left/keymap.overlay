@@ -1,0 +1,7 @@
+&left_underglow {
+    status = "okay";
+};
+
+&left_display {
+    status = "okay";
+};

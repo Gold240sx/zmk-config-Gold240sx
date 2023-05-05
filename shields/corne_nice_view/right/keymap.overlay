@@ -1,0 +1,7 @@
+&right_underglow {
+    status = "okay";
+};
+
+&right_display {
+    status = "okay";
+};

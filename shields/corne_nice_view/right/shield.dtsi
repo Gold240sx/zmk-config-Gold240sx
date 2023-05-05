@@ -1,3 +1,13 @@
-#include "splitkb_aurora_corne_right/shield.dtsi"
-#include "nice_view_adapter/shield.dtsi"
-#include "nice_view/shield.dtsi"
+#include "splitkb_aurora_corne_right.dtsi"
+
+&right_underglow {
+    compatible = "worldsemi,ws2812-spi";
+    label = "right_underglow";
+    spi-max-frequency = <8000000>;
+};
+
+&right_display {
+    compatible = "nice_view";
+    label = "right_display";
+    spi-max-frequency = <10000000>;
+};

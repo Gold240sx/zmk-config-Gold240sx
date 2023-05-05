@@ -1,0 +1,5 @@
+config ZMK_KEYBOARD_NAME
+    default "Corne Nice View Right"
+
+config ZMK_KEYBOARD_SPLIT
+    default y

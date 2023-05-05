@@ -1,0 +1,9 @@
+#include "splitkb_aurora_corne_left/shield.dtsi"
+#include "nice_view_adapter/shield.dtsi"
+#include "nice_view/shield.dtsi"
+
+config ZMK_KEYBOARD_NAME
+    default "Corne Nice View Left"
+
+config ZMK_KEYBOARD_SPLIT
+    default y
